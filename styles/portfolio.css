@@ -31,12 +31,19 @@
   padding: 18px 35px;
 }
 
+/* Header styles */
+.header {
+  background-image: url(../images/developer.png), url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+
 /* Nav styles */
 .navigation {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 50px 200px;
+  margin: 50px 230px;
 }
 
 .nav-title {
@@ -60,4 +67,34 @@
 .nav-anchors {
   text-decoration: none;
   font-size: 20px;
+}
+
+.banner {
+  margin-left: 230px;
+  display: flex;
+  gap: 191px;
+  align-items: center;
+}
+
+.banner-content {
+  max-width: 599px;
+}
+
+.banner-greetings {
+  font-weight: 600;
+  font-size: 45px;
+}
+
+.banner-title {
+  font-weight: 700;
+  font-size: 85px;
+}
+
+.banner-description {
+  font-size: 18px;
+}
+
+.banner-image {
+  width: 451px;
+  height: 676px;
 }
